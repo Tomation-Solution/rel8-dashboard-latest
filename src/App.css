@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+    .registration-table{
+        @apply !table-auto py-0 px-[15px] mt-6 bg-white border border-gray-200 shadow-md rounded-md w-full overflow-x-auto
+    }
+
+    .table{
+        @apply w-full border-collapse overflow-x-auto text-black
+    }
+    .dropdown-option{
+        @apply flex text-center gap-2 text-[14px] list-none text-black cursor-pointer py-2 px-0
+    }
+    .menu-item{
+        @apply flex items-center  gap-2  w-full px-3 py-2 text-gray-800 hover:bg-primary hover:text-white text-sm
+    }
+    .profile-account-input{
+        @apply border col-span-2 px-2 py-1 text-sm outline-blue-500
+    }
+    .account-profile-section-header{
+        @apply text-[#0B3178] font-medium text-lg
+    }
+    .account-profile-section-info-header{
+        @apply font-medium text-sm
+    }
+    .account-profile-section-info-header-detail{
+        @apply text-gray-500 text-sm
+    }
+    .account-grid{
+        @apply grid grid-cols-1 md:grid-cols-3 my-3
+    }
+
+}
+
+
+
+.rrrr{
+    margin-bottom: 400px;
+}
+
+
+.options-dropdown {
+	width: 180px;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	background: #ffffff;
+	border: 1px solid rgba(84, 95, 125, 0.04);
+	box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+	border-radius: 4px;
+	padding: 10px 20px;
+	z-index: 20;
+}
+
